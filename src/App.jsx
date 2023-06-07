@@ -41,7 +41,7 @@ function App() {
       </div>
       <div className="operacao">
         <input type="number" placeholder="Peso em kg" onChange={handlePesoChange} />
-        <input type="number" placeholder="Altura" onChange={handleAlturaChange} />
+        <input type="number" placeholder="Altura ex: 1.60" onChange={handleAlturaChange} />
         <button onClick={handleCalculaImc}>Calcular</button>
       </div>
       <div className="result">
